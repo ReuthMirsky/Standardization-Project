@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PL>
+	<Letters>
+		<Non-Terminals>
+			<Letter name="C" id="C">
+				<Params>
+					<Param name="sc"/>
+					<Param name="dc"/>
+					<Param name="sid"/>
+					<Param name="did"/>
+					<Param name="vol"/>
+					<Param name="svol"/>
+					<Param name="dvol"/>
+					<Param name="rvol"/>
+				</Params>
+			</Letter>
+			<Letter name="SM" id="SM">
+				<Params>
+					<Param name="sc"/>
+					<Param name="dc"/>
+					<Param name="sid"/>
+					<Param name="did"/>
+					<Param name="vol"/>
+					<Param name="svol"/>
+					<Param name="dvol"/>
+					<Param name="rvol"/>
+				</Params>
+			</Letter>
+		</Non-Terminals>
+		<Terminals>
+			<Letter name="sm" id="sm">
+				<Params>
+					<Param name="sc"/>
+					<Param name="dc"/>
+					<Param name="sid"/>
+					<Param name="did"/>
+					<Param name="vol"/>
+					<Param name="svol"/>
+					<Param name="dvol"/>
+					<Param name="rvol"/>
+				</Params>
+			</Letter>
+		</Terminals>
+	</Letters>
+	<Recipes>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="C" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SM">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="sid" secondIndex="1" secondParam="sid"/>
+				<EqualCons firstIndex="0" firstParam="did" secondIndex="1" secondParam="did"/>
+			</Equals>
+			<Letter id="sm" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="C">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="1" firstParam="did" secondIndex="2" secondParam="did"/>
+				<EqualCons firstIndex="0" firstParam="did" secondIndex="1" secondParam="did"/>
+			</Equals>
+			<Letter id="SM" index="1"/>
+			<Letter id="SM" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="C">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="1" firstParam="did" secondIndex="2" secondParam="sid"/>
+				<EqualCons firstIndex="0" firstParam="sid" secondIndex="1" secondParam="sid"/>
+				<EqualCons firstIndex="0" firstParam="did" secondIndex="2" secondParam="did"/>
+				<EqualCons firstIndex="0" firstParam="sid" secondIndex="1" secondParam="sid"/>
+			</Equals>
+			<Letter id="SM" index="1"/>
+			<Letter id="SM" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SM">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="1" firstParam="did" secondIndex="2" secondParam="did"/>
+				<EqualCons firstIndex="0" firstParam="did" secondIndex="1" secondParam="did"/>
+			</Equals>
+			<Letter id="SM" index="1"/>
+			<Letter id="SM" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SM">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="1" firstParam="did" secondIndex="2" secondParam="sid"/>
+				<EqualCons firstIndex="0" firstParam="sid" secondIndex="1" secondParam="sid"/>
+				<EqualCons firstIndex="0" firstParam="did" secondIndex="2" secondParam="did"/>
+				<EqualCons firstIndex="0" firstParam="sid" secondIndex="1" secondParam="sid"/>
+			</Equals>
+			<Letter id="SM" index="1"/>
+			<Letter id="SM" index="2"/>
+		</Recipe>
+	</Recipes>
+</PL>

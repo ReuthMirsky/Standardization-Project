@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PL>
+	<Letters>
+		<Non-Terminals>
+			<Letter name="Defend" id="Defend"/>
+			<Letter name="Tactic" id="Tactic"/>
+			<Letter name="Position" id="Position"/>
+			<Letter name="Pass" id="Pass"/>
+			<Letter name="Kick" id="Kick"/>
+			<Letter name="Charge" id="Charge"/>
+			<Letter name="Goal" id="Goal"/>
+			<Letter name="Attack" id="Attack"/>
+			<Letter name="Turn" id="Turn"/>
+			<Letter name="Score" id="Score"/>
+		</Non-Terminals>
+		<Terminals>
+			<Letter name="Clear" id="Clear"/>
+			<Letter name="ApproachBall" id="ApproachBall"/>
+			<Letter name="TurnWithBall" id="TurnWithBall"/>
+			<Letter name="TurnWithoutBall" id="TurnWithoutBall"/>
+			<Letter name="Pass" id="Pass"/>
+			<Letter name="Kick" id="Kick"/>
+			<Letter name="Position" id="Position"/>
+		</Terminals>
+	</Letters>
+	<Recipes>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="Defend" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="Charge" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="Goal" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Defend">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+			</Order>
+			<Letter id="Position" index="1"/>
+			<Letter id="Turn" index="2"/>
+			<Letter id="Tactic" index="3"/>
+			<Letter id="Position" index="4"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Tactic">
+			<Letter id="Clear" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Tactic">
+			<Letter id="ApproachBall" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Turn">
+			<Letter id="TurnWithBall" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Turn">
+			<Letter id="TurnWithoutBall" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Pass">
+			<Letter id="Pass" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Kick">
+			<Letter id="Kick" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Position">
+			<Letter id="Position" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Charge">
+			<Letter id="Attack" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Goal">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Letter id="Attack" index="1"/>
+			<Letter id="Score" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Attack">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Letter id="Position" index="1"/>
+			<Letter id="Turn" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Attack">
+			<Letter id="Pass" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Score">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Letter id="Position" index="1"/>
+			<Letter id="Turn" index="2"/>
+		</Recipe>
+	</Recipes>
+</PL>

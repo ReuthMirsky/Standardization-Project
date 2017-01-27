@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PL>
+	<Letters>
+		<Non-Terminals>
+			<Letter name="set_up_shelter" id="set_up_shelter">
+				<Params>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="fix_water_main" id="fix_water_main">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="clear_road_hazard" id="clear_road_hazard">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="clear_road_wreck" id="clear_road_wreck">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="clear_road_tree" id="clear_road_tree">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="plow_road" id="plow_road">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="quell_riot" id="quell_riot">
+				<Params>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="provide_temp_heat" id="provide_temp_heat">
+				<Params>
+					<Param name="person"/>
+				</Params>
+			</Letter>
+			<Letter name="fix_power_line" id="fix_power_line">
+				<Params>
+					<Param name="lineloc"/>
+				</Params>
+			</Letter>
+			<Letter name="provide_medical_attention" id="provide_medical_attention">
+				<Params>
+					<Param name="person"/>
+				</Params>
+			</Letter>
+			<Letter name="clean_up_hazard" id="clean_up_hazard">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="block_road" id="block_road">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="unblock_road" id="unblock_road">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="get_electricity" id="get_electricity">
+				<Params>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="repair_pipe" id="repair_pipe">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="open_hole" id="open_hole">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="close_hole" id="close_hole">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="set_up_cones" id="set_up_cones">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="take_down_cones" id="take_down_cones">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="clear_wreck" id="clear_wreck">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="tow_to" id="tow_to">
+				<Params>
+					<Param name="veh"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="clear_tree" id="clear_tree">
+				<Params>
+					<Param name="tree"/>
+				</Params>
+			</Letter>
+			<Letter name="remove_blockage" id="remove_blockage">
+				<Params>
+					<Param name="stuff"/>
+				</Params>
+			</Letter>
+			<Letter name="declare_curfew" id="declare_curfew">
+				<Params>
+					<Param name="town"/>
+				</Params>
+			</Letter>
+			<Letter name="generate_temp_electricity" id="generate_temp_electricity">
+				<Params>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="make_full_fuel" id="make_full_fuel">
+				<Params>
+					<Param name="gen"/>
+				</Params>
+			</Letter>
+			<Letter name="add_fuel" id="add_fuel">
+				<Params>
+					<Param name="ss"/>
+					<Param name="obj"/>
+				</Params>
+			</Letter>
+			<Letter name="repair_line" id="repair_line">
+				<Params>
+					<Param name="crew"/>
+					<Param name="lineloc"/>
+				</Params>
+			</Letter>
+			<Letter name="shut_off_power" id="shut_off_power">
+				<Params>
+					<Param name="crew"/>
+					<Param name="lineloc"/>
+				</Params>
+			</Letter>
+			<Letter name="turn_on_power" id="turn_on_power">
+				<Params>
+					<Param name="crew"/>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="shut_off_water" id="shut_off_water">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="turn_on_water" id="turn_on_water">
+				<Params>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="emt_treat" id="emt_treat">
+				<Params>
+					<Param name="person"/>
+				</Params>
+			</Letter>
+			<Letter name="stabilize" id="stabilize">
+				<Params>
+					<Param name="person"/>
+				</Params>
+			</Letter>
+			<Letter name="get_to_obj" id="get_to_obj">
+				<Params>
+					<Param name="obj"/>
+					<Param name="place"/>
+				</Params>
+			</Letter>
+			<Letter name="get_to_person" id="get_to_person">
+				<Params>
+					<Param name="person"/>
+					<Param name="place"/>
+				</Params>
+			</Letter>
+			<Letter name="get_to_veh" id="get_to_veh">
+				<Params>
+					<Param name="veh"/>
+					<Param name="place"/>
+				</Params>
+			</Letter>
+			<Letter name="drive_to" id="drive_to">
+				<Params>
+					<Param name="person"/>
+					<Param name="veh"/>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="get_in" id="get_in">
+				<Params>
+					<Param name="obj"/>
+					<Param name="veh"/>
+				</Params>
+			</Letter>
+			<Letter name="get_out" id="get_out">
+				<Params>
+					<Param name="obj"/>
+					<Param name="veh"/>
+				</Params>
+			</Letter>
+		</Non-Terminals>
+		<Terminals>
+			<Letter name="navegate_snowplow" id="navegate_snowplow">
+				<Params>
+					<Param name="person"/>
+					<Param name="veh"/>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="engage_plow" id="engage_plow">
+				<Params>
+					<Param name="person"/>
+					<Param name="plow"/>
+				</Params>
+			</Letter>
+			<Letter name="disengage_plow" id="disengage_plow">
+				<Params>
+					<Param name="person"/>
+					<Param name="plow"/>
+				</Params>
+			</Letter>
+			<Letter name="navegate_vehicle" id="navegate_vehicle">
+				<Params>
+					<Param name="person"/>
+					<Param name="veh"/>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="climb_in" id="climb_in">
+				<Params>
+					<Param name="obj"/>
+					<Param name="veh"/>
+				</Params>
+			</Letter>
+			<Letter name="climb_out" id="climb_out">
+				<Params>
+					<Param name="obj"/>
+					<Param name="veh"/>
+				</Params>
+			</Letter>
+			<Letter name="load" id="load">
+				<Params>
+					<Param name="person"/>
+					<Param name="obj"/>
+					<Param name="veh"/>
+				</Params>
+			</Letter>
+			<Letter name="unload" id="unload">
+				<Params>
+					<Param name="person"/>
+					<Param name="obj"/>
+					<Param name="veh"/>
+				</Params>
+			</Letter>
+			<Letter name="treat" id="treat">
+				<Params>
+					<Param name="emt"/>
+					<Param name="person"/>
+				</Params>
+			</Letter>
+			<Letter name="treat_it_hospital" id="treat_it_hospital">
+				<Params>
+					<Param name="person"/>
+					<Param name="hospital"/>
+				</Params>
+			</Letter>
+			<Letter name="call" id="call">
+				<Params>
+					<Param name="place"/>
+				</Params>
+			</Letter>
+			<Letter name="remove_wire" id="remove_wire">
+				<Params>
+					<Param name="crew"/>
+					<Param name="lineloc"/>
+				</Params>
+			</Letter>
+			<Letter name="string_wire" id="string_wire">
+				<Params>
+					<Param name="crew"/>
+					<Param name="lineloc"/>
+				</Params>
+			</Letter>
+			<Letter name="carry_blockage_out_of_way" id="carry_blockage_out_of_way">
+				<Params>
+					<Param name="crew"/>
+					<Param name="stuff"/>
+				</Params>
+			</Letter>
+			<Letter name="cut_tree" id="cut_tree">
+				<Params>
+					<Param name="crew"/>
+					<Param name="tree"/>
+				</Params>
+			</Letter>
+			<Letter name="hook_up" id="hook_up">
+				<Params>
+					<Param name="obj"/>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="pour_into" id="pour_into">
+				<Params>
+					<Param name="obj"/>
+					<Param name="obj2"/>
+				</Params>
+			</Letter>
+			<Letter name="turn_on" id="turn_on">
+				<Params>
+					<Param name="obj"/>
+				</Params>
+			</Letter>
+			<Letter name="pay" id="pay">
+				<Params>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="pump_gas_into" id="pump_gas_into">
+				<Params>
+					<Param name="loc"/>
+					<Param name="obj"/>
+				</Params>
+			</Letter>
+			<Letter name="turn_on_heat" id="turn_on_heat">
+				<Params>
+					<Param name="loc"/>
+				</Params>
+			</Letter>
+			<Letter name="set_up_barricades" id="set_up_barricades">
+				<Params>
+					<Param name="police"/>
+				</Params>
+			</Letter>
+			<Letter name="place_cones" id="place_cones">
+				<Params>
+					<Param name="police"/>
+				</Params>
+			</Letter>
+			<Letter name="pickup_cones" id="pickup_cones">
+				<Params>
+					<Param name="police"/>
+				</Params>
+			</Letter>
+			<Letter name="hook_to_tow_truck" id="hook_to_tow_truck">
+				<Params>
+					<Param name="ttruck"/>
+					<Param name="veh"/>
+				</Params>
+			</Letter>
+			<Letter name="unhook_from_tow_truck" id="unhook_from_tow_truck">
+				<Params>
+					<Param name="ttruck"/>
+					<Param name="veh"/>
+				</Params>
+			</Letter>
+			<Letter name="dig" id="dig">
+				<Params>
+					<Param name="backhoe"/>
+					<Param name="place"/>
+				</Params>
+			</Letter>
+			<Letter name="fill_in" id="fill_in">
+				<Params>
+					<Param name="backhoe"/>
+					<Param name="place"/>
+				</Params>
+			</Letter>
+			<Letter name="replace_pipe" id="replace_pipe">
+				<Params>
+					<Param name="crew"/>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+			<Letter name="clean_hazard" id="clean_hazard">
+				<Params>
+					<Param name="hazard_team"/>
+					<Param name="from"/>
+					<Param name="to"/>
+				</Params>
+			</Letter>
+		</Terminals>
+	</Letters>
+	<Recipes>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="set_up_shelter" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="fix_water_main" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="clear_road_hazard" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="clear_road_wreck" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="clear_road_tree" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="plow_road" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="quell_riot" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="provide_temp_heat" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="fix_power_line" index="1"/>
+		</Recipe>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="provide_medical_attention" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="set_up_shelter">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="1" secondParam="loc"/>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="2" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="3" secondParam="place"/>
+			</Equals>
+			<Letter id="get_electricity" index="1"/>
+			<Letter id="get_to_person" index="2"/>
+			<Letter id="get_to_obj" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="set_up_shelter">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="1" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="2" secondParam="place"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="get_to_obj" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="set_up_shelter">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="1" secondParam="loc"/>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="2" secondParam="place"/>
+			</Equals>
+			<Letter id="get_electricity" index="1"/>
+			<Letter id="get_to_person" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="set_up_shelter">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="1" secondParam="place"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="fix_water_main">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="3" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="1" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="2" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="3" secondParam="to"/>
+			</Equals>
+			<Letter id="shut_off_water" index="1"/>
+			<Letter id="repair_pipe" index="2"/>
+			<Letter id="turn_on_water" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="clear_road_hazard">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="3" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="1" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="2" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="3" secondParam="to"/>
+			</Equals>
+			<Letter id="block_road" index="1"/>
+			<Letter id="clean_up_hazard" index="2"/>
+			<Letter id="unblock_road" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="clear_road_wreck">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="3" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="1" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="2" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="3" secondParam="to"/>
+			</Equals>
+			<Letter id="set_up_cones" index="1"/>
+			<Letter id="clear_wreck" index="2"/>
+			<Letter id="take_down_cones" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="clear_road_tree">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="3" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="1" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="3" secondParam="to"/>
+			</Equals>
+			<Letter id="set_up_cones" index="1"/>
+			<Letter id="clear_tree" index="2"/>
+			<Letter id="take_down_cones" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="plow_road">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+				<OrderCons firstIndex="4" secondIndex="5"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="loc"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="4" secondParam="loc"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="person"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="3" secondParam="person"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="4" secondParam="person"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="5" secondParam="person"/>
+				<EqualCons firstIndex="2" firstParam="veh" secondIndex="3" secondParam="plow"/>
+				<EqualCons firstIndex="2" firstParam="veh" secondIndex="4" secondParam="veh"/>
+				<EqualCons firstIndex="2" firstParam="veh" secondIndex="5" secondParam="plow"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="navegate_snowplow" index="2"/>
+			<Letter id="engage_plow" index="3"/>
+			<Letter id="navegate_snowplow" index="4"/>
+			<Letter id="disengage_plow" index="5"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="quell_riot">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+				<OrderCons firstIndex="4" secondIndex="5"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="2" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="3" secondParam="place"/>
+				<EqualCons firstIndex="2" firstParam="person" secondIndex="4" secondParam="police"/>
+				<EqualCons firstIndex="3" firstParam="person" secondIndex="5" secondParam="police"/>
+			</Equals>
+			<Letter id="declare_curfew" index="1"/>
+			<Letter id="get_to_person" index="2"/>
+			<Letter id="get_to_person" index="3"/>
+			<Letter id="set_up_barricades" index="4"/>
+			<Letter id="set_up_barricades" index="5"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="provide_temp_heat">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="person" secondIndex="1" secondParam="person"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="provide_temp_heat">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="1" firstParam="loc" secondIndex="2" secondParam="loc"/>
+			</Equals>
+			<Letter id="generate_temp_electricity" index="1"/>
+			<Letter id="turn_on_heat" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="fix_power_line">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="1" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="2" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="3" secondParam="lineloc"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="3" secondParam="crew"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="get_to_veh" index="2"/>
+			<Letter id="repair_line" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="provide_medical_attention">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="person" secondIndex="1" secondParam="person"/>
+				<EqualCons firstIndex="0" firstParam="person" secondIndex="2" secondParam="person"/>
+				<EqualCons firstIndex="1" firstParam="place" secondIndex="2" secondParam="hospital"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="treat_it_hospital" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="provide_medical_attention">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="person" secondIndex="1" secondParam="person"/>
+			</Equals>
+			<Letter id="emt_treat" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="clean_up_hazard">
+			<Letter id="call" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="clean_up_hazard">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="2" secondParam="to"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="hazard_team"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="clean_hazard" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="block_road">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="1" secondParam="to"/>
+			</Equals>
+			<Letter id="set_up_cones" index="1"/>
+			<Letter id="get_to_person" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="unblock_road">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="1" secondParam="to"/>
+			</Equals>
+			<Letter id="take_down_cones" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_electricity">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="1" secondParam="loc"/>
+			</Equals>
+			<Letter id="generate_temp_electricity" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="repair_pipe">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+				<OrderCons firstIndex="4" secondIndex="5"/>
+				<OrderCons firstIndex="5" secondIndex="6"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="3" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="4" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="5" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="6" secondParam="from"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="2" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="3" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="4" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="5" secondParam="to"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="6" secondParam="to"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="4" secondParam="crew"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="set_up_cones" index="2"/>
+			<Letter id="open_hole" index="3"/>
+			<Letter id="replace_pipe" index="4"/>
+			<Letter id="close_hole" index="5"/>
+			<Letter id="take_down_cones" index="6"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="open_hole">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="place"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="2" secondParam="backhoe"/>
+			</Equals>
+			<Letter id="get_to_veh" index="1"/>
+			<Letter id="dig" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="close_hole">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="place"/>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="2" secondParam="place"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="2" secondParam="backhoe"/>
+			</Equals>
+			<Letter id="get_to_veh" index="1"/>
+			<Letter id="fill_in" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="set_up_cones">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="place"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="police"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="place_cones" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="set_up_cones">
+			<Letter id="place_cones" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="take_down_cones">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="from" secondIndex="1" secondParam="place"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="police"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="pickup_cones" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="clear_wreck">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="1" secondParam="to"/>
+			</Equals>
+			<Letter id="tow_to" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="tow_to">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="veh" secondIndex="2" secondParam="veh"/>
+				<EqualCons firstIndex="0" firstParam="veh" secondIndex="4" secondParam="veh"/>
+				<EqualCons firstIndex="0" firstParam="to" secondIndex="3" secondParam="place"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="2" secondParam="ttruck"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="3" secondParam="veh"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="4" secondParam="ttruck"/>
+			</Equals>
+			<Letter id="get_to_veh" index="1"/>
+			<Letter id="hook_to_tow_truck" index="2"/>
+			<Letter id="get_to_veh" index="3"/>
+			<Letter id="unhook_from_tow_truck" index="4"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="clear_tree">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="tree" secondIndex="2" secondParam="tree"/>
+				<EqualCons firstIndex="0" firstParam="tree" secondIndex="3" secondParam="stuff"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="crew"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="cut_tree" index="2"/>
+			<Letter id="remove_blockage" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="clear_tree">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="tree" secondIndex="2" secondParam="tree"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="crew"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="cut_tree" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="remove_blockage">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="stuff" secondIndex="2" secondParam="stuff"/>
+				<EqualCons firstIndex="1" firstParam="crew" secondIndex="2" secondParam="crew"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="carry_blockage_out_of_way" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="remove_blockage">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="stuff" secondIndex="1" secondParam="obj"/>
+			</Equals>
+			<Letter id="get_to_obj" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="declare_curfew">
+			<Letter id="call" index="1"/>
+			<Letter id="call" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="generate_temp_electricity">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+				<OrderCons firstIndex="4" secondIndex="5"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="2" secondParam="loc"/>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="3" secondParam="loc"/>
+				<EqualCons firstIndex="1" firstParam="gen" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="gen" secondIndex="3" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="gen" secondIndex="4" secondParam="obj"/>
+			</Equals>
+			<Letter id="make_full_fuel" index="1"/>
+			<Letter id="get_to_obj" index="2"/>
+			<Letter id="hook_up" index="3"/>
+			<Letter id="turn_on" index="4"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="generate_temp_electricity">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="2" secondParam="loc"/>
+				<EqualCons firstIndex="1" firstParam="gen" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="gen" secondIndex="3" secondParam="obj"/>
+			</Equals>
+			<Letter id="make_full_fuel" index="1"/>
+			<Letter id="hook_up" index="2"/>
+			<Letter id="turn_on" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="make_full_fuel">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="gen" secondIndex="4" secondParam="obj2"/>
+				<EqualCons firstIndex="1" firstParam="obj" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="obj" secondIndex="3" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="obj" secondIndex="4" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="loc" secondIndex="2" secondParam="ss"/>
+			</Equals>
+			<Letter id="get_to_obj" index="1"/>
+			<Letter id="add_fuel" index="2"/>
+			<Letter id="get_to_obj" index="3"/>
+			<Letter id="pour_into" index="4"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="make_full_fuel">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="gen" secondIndex="3" secondParam="obj2"/>
+				<EqualCons firstIndex="1" firstParam="obj" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="obj" secondIndex="3" secondParam="obj"/>
+			</Equals>
+			<Letter id="add_fuel" index="1"/>
+			<Letter id="get_to_obj" index="2"/>
+			<Letter id="pour_into" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="make_full_fuel">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="gen" secondIndex="3" secondParam="obj2"/>
+				<EqualCons firstIndex="1" firstParam="obj" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="obj" secondIndex="3" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="loc" secondIndex="2" secondParam="ss"/>
+			</Equals>
+			<Letter id="get_to_obj" index="1"/>
+			<Letter id="add_fuel" index="2"/>
+			<Letter id="pour_into" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="make_full_fuel">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="gen" secondIndex="2" secondParam="obj2"/>
+				<EqualCons firstIndex="1" firstParam="obj" secondIndex="2" secondParam="obj"/>
+			</Equals>
+			<Letter id="add_fuel" index="1"/>
+			<Letter id="pour_into" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="make_full_fuel">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="gen" secondIndex="1" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="gen" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="1" firstParam="loc" secondIndex="2" secondParam="ss"/>
+			</Equals>
+			<Letter id="get_to_obj" index="1"/>
+			<Letter id="add_fuel" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="make_full_fuel">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="gen" secondIndex="1" secondParam="obj"/>
+			</Equals>
+			<Letter id="add_fuel" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="add_fuel">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="ss" secondIndex="1" secondParam="ss"/>
+				<EqualCons firstIndex="0" firstParam="ss" secondIndex="2" secondParam="loc"/>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="2" secondParam="obj"/>
+			</Equals>
+			<Letter id="pay" index="1"/>
+			<Letter id="pump_gas_into" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="repair_line">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="4"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+				<OrderCons firstIndex="4" secondIndex="5"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="1" secondParam="lineloc"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="3" secondParam="lineloc"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="4" secondParam="lineloc"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="5" secondParam="loc"/>
+				<EqualCons firstIndex="0" firstParam="crew" secondIndex="1" secondParam="crew"/>
+				<EqualCons firstIndex="0" firstParam="crew" secondIndex="3" secondParam="crew"/>
+				<EqualCons firstIndex="0" firstParam="crew" secondIndex="4" secondParam="crew"/>
+				<EqualCons firstIndex="0" firstParam="crew" secondIndex="5" secondParam="crew"/>
+			</Equals>
+			<Letter id="shut_off_power" index="1"/>
+			<Letter id="clear_tree" index="2"/>
+			<Letter id="remove_wire" index="3"/>
+			<Letter id="string_wire" index="4"/>
+			<Letter id="turn_on_power" index="5"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="repair_line">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="crew" secondIndex="1" secondParam="crew"/>
+				<EqualCons firstIndex="0" firstParam="crew" secondIndex="2" secondParam="crew"/>
+				<EqualCons firstIndex="0" firstParam="crew" secondIndex="3" secondParam="crew"/>
+				<EqualCons firstIndex="0" firstParam="crew" secondIndex="4" secondParam="crew"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="1" secondParam="lineloc"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="2" secondParam="lineloc"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="3" secondParam="lineloc"/>
+				<EqualCons firstIndex="0" firstParam="lineloc" secondIndex="4" secondParam="loc"/>
+			</Equals>
+			<Letter id="shut_off_power" index="1"/>
+			<Letter id="remove_wire" index="2"/>
+			<Letter id="string_wire" index="3"/>
+			<Letter id="turn_on_power" index="4"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="shut_off_power">
+			<Letter id="call" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="turn_on_power">
+			<Letter id="call" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="shut_off_water">
+			<Letter id="call" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="turn_on_water">
+			<Letter id="call" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="emt_treat">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="person" secondIndex="2" secondParam="person"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="emt"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="treat" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="stabilize">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="person" secondIndex="1" secondParam="person"/>
+			</Equals>
+			<Letter id="emt_treat" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_to_person">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="person" secondIndex="1" secondParam="person"/>
+				<EqualCons firstIndex="0" firstParam="place" secondIndex="1" secondParam="loc"/>
+			</Equals>
+			<Letter id="drive_to" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_to_veh">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="veh" secondIndex="1" secondParam="veh"/>
+				<EqualCons firstIndex="0" firstParam="place" secondIndex="1" secondParam="loc"/>
+			</Equals>
+			<Letter id="drive_to" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_to_obj">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="4" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="place" secondIndex="3" secondParam="place"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="2" secondParam="veh"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="3" secondParam="veh"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="4" secondParam="veh"/>
+			</Equals>
+			<Letter id="get_to_veh" index="1"/>
+			<Letter id="get_in" index="2"/>
+			<Letter id="get_to_veh" index="3"/>
+			<Letter id="get_out" index="4"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_to_obj">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+				<OrderCons firstIndex="4" secondIndex="5"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="2" secondParam="person"/>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="3" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="5" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="place" secondIndex="4" secondParam="place"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="3" secondParam="veh"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="4" secondParam="veh"/>
+				<EqualCons firstIndex="1" firstParam="veh" secondIndex="5" secondParam="veh"/>
+			</Equals>
+			<Letter id="get_to_veh" index="1"/>
+			<Letter id="stabilize" index="2"/>
+			<Letter id="get_in" index="3"/>
+			<Letter id="get_to_veh" index="4"/>
+			<Letter id="get_out" index="5"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="drive_to">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="loc" secondIndex="1" secondParam="loc"/>
+				<EqualCons firstIndex="0" firstParam="person" secondIndex="1" secondParam="person"/>
+				<EqualCons firstIndex="0" firstParam="veh" secondIndex="1" secondParam="veh"/>
+			</Equals>
+			<Letter id="navegate_vehicle" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_in">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="1" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="veh" secondIndex="1" secondParam="veh"/>
+			</Equals>
+			<Letter id="climb_in" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_in">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="veh" secondIndex="2" secondParam="veh"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="person"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="load" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_out">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="1" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="veh" secondIndex="1" secondParam="veh"/>
+			</Equals>
+			<Letter id="climb_out" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="get_out">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="obj" secondIndex="2" secondParam="obj"/>
+				<EqualCons firstIndex="0" firstParam="veh" secondIndex="2" secondParam="veh"/>
+				<EqualCons firstIndex="1" firstParam="person" secondIndex="2" secondParam="person"/>
+			</Equals>
+			<Letter id="get_to_person" index="1"/>
+			<Letter id="unload" index="2"/>
+		</Recipe>
+	</Recipes>
+</PL>

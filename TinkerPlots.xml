@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PL>
+	<Letters>
+		<Non-Terminals>
+			<Letter name="C" id="C"/>
+			<Letter name="CC" id="CC">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="CCD" id="CCD">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+				</Params>
+			</Letter>
+			<Letter name="CDT" id="CDT">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="dt"/>
+				</Params>
+			</Letter>
+			<Letter name="ChC" id="ChC">
+				<Params>
+					<Param name="com"/>
+				</Params>
+			</Letter>
+			<Letter name="CRT" id="CRT"/>
+			<Letter name="CSM" id="CSM">
+				<Params>
+					<Param name="s"/>
+				</Params>
+			</Letter>
+			<Letter name="DAE" id="DAE">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="ei"/>
+					<Param name="el"/>
+				</Params>
+			</Letter>
+			<Letter name="DCE" id="DCE">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="ei"/>
+					<Param name="el"/>
+				</Params>
+			</Letter>
+			<Letter name="DrA" id="DrA">
+				<Params>
+					<Param name="p"/>
+					<Param name="ax"/>
+					<Param name="n"/>
+					<Param name="ai"/>
+					<Param name="t"/>
+					<Param name="s"/>
+					<Param name="nb"/>
+					<Param name="bi_0"/>
+					<Param name="l_0"/>
+					<Param name="bi_1"/>
+					<Param name="l_1"/>
+					<Param name="bi_2"/>
+					<Param name="l_2"/>
+					<Param name="bi_3"/>
+					<Param name="l_3"/>
+				</Params>
+			</Letter>
+			<Letter name="DS" id="DS">
+				<Params>
+					<Param name="s"/>
+				</Params>
+			</Letter>
+			<Letter name="DT" id="DT">
+				<Params>
+					<Param name="t"/>
+				</Params>
+			</Letter>
+			<Letter name="MS" id="MS">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="ei"/>
+					<Param name="el"/>
+				</Params>
+			</Letter>
+			<Letter name="MU" id="MU">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="NA" id="NA">
+				<Params>
+					<Param name="t"/>
+					<Param name="s"/>
+					<Param name="ai"/>
+					<Param name="n"/>
+				</Params>
+			</Letter>
+			<Letter name="NP" id="NP">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="NS" id="NS">
+				<Params>
+					<Param name="s"/>
+				</Params>
+			</Letter>
+			<Letter name="NT" id="NT">
+				<Params>
+					<Param name="t"/>
+					<Param name="s"/>
+				</Params>
+			</Letter>
+			<Letter name="PO" id="PO">
+				<Params>
+					<Param name="s"/>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="Per" id="Per">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="R" id="R">
+				<Params>
+					<Param name="s"/>
+					<Param name="ai"/>
+					<Param name="t"/>
+				</Params>
+			</Letter>
+			<Letter name="RB" id="RB">
+				<Params>
+					<Param name="p"/>
+					<Param name="ax"/>
+					<Param name="n"/>
+					<Param name="rbi"/>
+					<Param name="ibi"/>
+				</Params>
+			</Letter>
+			<Letter name="RS" id="RS">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="ss"/>
+				</Params>
+			</Letter>
+			<Letter name="S" id="S">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="SA" id="SA">
+				<Params>
+					<Param name="com"/>
+				</Params>
+			</Letter>
+			<Letter name="SAB" id="SAB">
+				<Params>
+					<Param name="p"/>
+					<Param name="ax"/>
+					<Param name="n"/>
+				</Params>
+			</Letter>
+			<Letter name="SAD" id="SAD">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="dt"/>
+				</Params>
+			</Letter>
+			<Letter name="SDS" id="SDS">
+				<Params>
+					<Param name="s"/>
+					<Param name="ds"/>
+				</Params>
+			</Letter>
+			<Letter name="SR" id="SR">
+				<Params>
+					<Param name="s"/>
+					<Param name="r"/>
+				</Params>
+			</Letter>
+			<Letter name="SRP" id="SRP"/>
+			<Letter name="SwA" id="SwA">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="MR" id="MR">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+				</Params>
+			</Letter>
+		</Non-Terminals>
+		<Terminals>
+			<Letter name="C" id="C"/>
+			<Letter name="CC" id="CC">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="CCD" id="CCD">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+				</Params>
+			</Letter>
+			<Letter name="CDT" id="CDT">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="dt"/>
+				</Params>
+			</Letter>
+			<Letter name="ChC" id="ChC">
+				<Params>
+					<Param name="com"/>
+				</Params>
+			</Letter>
+			<Letter name="CRT" id="CRT"/>
+			<Letter name="CSM" id="CSM">
+				<Params>
+					<Param name="s"/>
+				</Params>
+			</Letter>
+			<Letter name="DAE" id="DAE">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="ei"/>
+					<Param name="el"/>
+				</Params>
+			</Letter>
+			<Letter name="DCE" id="DCE">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="ei"/>
+					<Param name="el"/>
+				</Params>
+			</Letter>
+			<Letter name="DrA" id="DrA">
+				<Params>
+					<Param name="p"/>
+					<Param name="ax"/>
+					<Param name="n"/>
+					<Param name="ai"/>
+					<Param name="t"/>
+					<Param name="s"/>
+					<Param name="nb"/>
+					<Param name="bi_0"/>
+					<Param name="l_0"/>
+					<Param name="bi_1"/>
+					<Param name="l_1"/>
+					<Param name="bi_2"/>
+					<Param name="l_2"/>
+					<Param name="bi_3"/>
+					<Param name="l_3"/>
+				</Params>
+			</Letter>
+			<Letter name="DS" id="DS">
+				<Params>
+					<Param name="s"/>
+				</Params>
+			</Letter>
+			<Letter name="DT" id="DT">
+				<Params>
+					<Param name="t"/>
+				</Params>
+			</Letter>
+			<Letter name="MS" id="MS">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="ei"/>
+					<Param name="el"/>
+				</Params>
+			</Letter>
+			<Letter name="MU" id="MU">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="NA" id="NA">
+				<Params>
+					<Param name="t"/>
+					<Param name="s"/>
+					<Param name="ai"/>
+					<Param name="n"/>
+				</Params>
+			</Letter>
+			<Letter name="NP" id="NP">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="NS" id="NS">
+				<Params>
+					<Param name="s"/>
+				</Params>
+			</Letter>
+			<Letter name="NT" id="NT">
+				<Params>
+					<Param name="t"/>
+					<Param name="s"/>
+				</Params>
+			</Letter>
+			<Letter name="PO" id="PO">
+				<Params>
+					<Param name="s"/>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="Per" id="Per">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="R" id="R">
+				<Params>
+					<Param name="s"/>
+					<Param name="ai"/>
+					<Param name="t"/>
+				</Params>
+			</Letter>
+			<Letter name="RB" id="RB">
+				<Params>
+					<Param name="p"/>
+					<Param name="ax"/>
+					<Param name="n"/>
+					<Param name="rbi"/>
+					<Param name="ibi"/>
+				</Params>
+			</Letter>
+			<Letter name="RS" id="RS">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="ss"/>
+				</Params>
+			</Letter>
+			<Letter name="S" id="S">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="SA" id="SA">
+				<Params>
+					<Param name="com"/>
+				</Params>
+			</Letter>
+			<Letter name="SAB" id="SAB">
+				<Params>
+					<Param name="p"/>
+					<Param name="ax"/>
+					<Param name="n"/>
+				</Params>
+			</Letter>
+			<Letter name="SAD" id="SAD">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+					<Param name="dt"/>
+				</Params>
+			</Letter>
+			<Letter name="SDS" id="SDS">
+				<Params>
+					<Param name="s"/>
+					<Param name="ds"/>
+				</Params>
+			</Letter>
+			<Letter name="SR" id="SR">
+				<Params>
+					<Param name="s"/>
+					<Param name="r"/>
+				</Params>
+			</Letter>
+			<Letter name="SRP" id="SRP"/>
+			<Letter name="SwA" id="SwA">
+				<Params>
+					<Param name="p"/>
+				</Params>
+			</Letter>
+			<Letter name="MR" id="MR">
+				<Params>
+					<Param name="s"/>
+					<Param name="d"/>
+				</Params>
+			</Letter>
+		</Terminals>
+	</Letters>
+	<Recipes>
+		<Recipe prob="0.5" lhs="root">
+			<Letter id="SRP" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="C">
+			<Letter id="C" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CC">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="CC" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CCD">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+			</Equals>
+			<Letter id="CCD" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CDT">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="dt" secondIndex="1" secondParam="dt"/>
+			</Equals>
+			<Letter id="CDT" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="ChC">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="com" secondIndex="1" secondParam="com"/>
+			</Equals>
+			<Letter id="ChC" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CRT">
+			<Letter id="CRT" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CSM">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+			</Equals>
+			<Letter id="CSM" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DCE">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="DCE" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DrA">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+				<EqualCons firstIndex="0" firstParam="ax" secondIndex="1" secondParam="ax"/>
+				<EqualCons firstIndex="0" firstParam="n" secondIndex="1" secondParam="n"/>
+				<EqualCons firstIndex="0" firstParam="ai" secondIndex="1" secondParam="ai"/>
+				<EqualCons firstIndex="0" firstParam="t" secondIndex="1" secondParam="t"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="nb" secondIndex="1" secondParam="nb"/>
+				<EqualCons firstIndex="0" firstParam="bi_0" secondIndex="1" secondParam="bi_0"/>
+				<EqualCons firstIndex="0" firstParam="l_0" secondIndex="1" secondParam="l_0"/>
+				<EqualCons firstIndex="0" firstParam="bi_1" secondIndex="1" secondParam="bi_1"/>
+				<EqualCons firstIndex="0" firstParam="l_1" secondIndex="1" secondParam="l_1"/>
+				<EqualCons firstIndex="0" firstParam="bi_2" secondIndex="1" secondParam="bi_2"/>
+				<EqualCons firstIndex="0" firstParam="l_2" secondIndex="1" secondParam="l_2"/>
+				<EqualCons firstIndex="0" firstParam="bi_3" secondIndex="1" secondParam="bi_3"/>
+				<EqualCons firstIndex="0" firstParam="l_3" secondIndex="1" secondParam="l_3"/>
+			</Equals>
+			<Letter id="DrA" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DS">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+			</Equals>
+			<Letter id="DS" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DT">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="t" secondIndex="1" secondParam="t"/>
+			</Equals>
+			<Letter id="DT" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="MS">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="1" secondParam="el"/>
+			</Equals>
+			<Letter id="MS" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="MU">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="MU" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="NA">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="t" secondIndex="1" secondParam="t"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="ai" secondIndex="1" secondParam="ai"/>
+				<EqualCons firstIndex="0" firstParam="n" secondIndex="1" secondParam="n"/>
+			</Equals>
+			<Letter id="NA" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="NP">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="NP" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="NS">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+			</Equals>
+			<Letter id="NS" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="NT">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="t" secondIndex="1" secondParam="t"/>
+			</Equals>
+			<Letter id="NT" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="PO">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="PO" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="Per">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="Per" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="R">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="ai" secondIndex="1" secondParam="ai"/>
+				<EqualCons firstIndex="0" firstParam="t" secondIndex="1" secondParam="t"/>
+			</Equals>
+			<Letter id="R" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="RB">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+				<EqualCons firstIndex="0" firstParam="ax" secondIndex="1" secondParam="ax"/>
+				<EqualCons firstIndex="0" firstParam="n" secondIndex="1" secondParam="n"/>
+				<EqualCons firstIndex="0" firstParam="rbi" secondIndex="1" secondParam="rbi"/>
+				<EqualCons firstIndex="0" firstParam="ibi" secondIndex="1" secondParam="ibi"/>
+			</Equals>
+			<Letter id="RB" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="RS">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ss" secondIndex="1" secondParam="ss"/>
+			</Equals>
+			<Letter id="RS" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="S">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="S" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SA">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="com" secondIndex="1" secondParam="com"/>
+			</Equals>
+			<Letter id="SA" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SAB">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+				<EqualCons firstIndex="0" firstParam="ax" secondIndex="1" secondParam="ax"/>
+				<EqualCons firstIndex="0" firstParam="n" secondIndex="1" secondParam="n"/>
+			</Equals>
+			<Letter id="SAB" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SAD">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="dt" secondIndex="1" secondParam="dt"/>
+			</Equals>
+			<Letter id="SAD" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SDS">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="ds" secondIndex="1" secondParam="ds"/>
+			</Equals>
+			<Letter id="SDS" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SR">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="r" secondIndex="1" secondParam="r"/>
+			</Equals>
+			<Letter id="SR" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SRP">
+			<Letter id="SRP" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SwA">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="SwA" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="MR">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+			</Equals>
+			<Letter id="MR" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="C">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="CC" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="C">
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="1" secondParam="p"/>
+			</Equals>
+			<Letter id="Per" index="1"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="PO">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="1" secondIndex="4"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+				<OrderCons firstIndex="3" secondIndex="5"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="2" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="3" secondParam="p"/>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="4" secondParam="p"/>
+				<EqualCons firstIndex="0" firstParam="p" secondIndex="5" secondParam="p"/>
+				<EqualCons firstIndex="1" firstParam="t" secondIndex="2" secondParam="t"/>
+				<EqualCons firstIndex="1" firstParam="t" secondIndex="4" secondParam="t"/>
+				<EqualCons firstIndex="2" firstParam="t" secondIndex="4" secondParam="t"/>
+				<EqualCons firstIndex="2" firstParam="n" secondIndex="4" secondParam="n"/>
+			</Equals>
+			<Letter id="NT" index="1"/>
+			<Letter id="NA" index="2"/>
+			<Letter id="NP" index="3"/>
+			<Letter id="DrA" index="4"/>
+			<Letter id="C" index="5"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="DAE">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="1" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="2" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="2" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="ei" secondIndex="2" secondParam="ei"/>
+				<EqualCons firstIndex="0" firstParam="el" secondIndex="2" secondParam="el"/>
+			</Equals>
+			<Letter id="DAE" index="1"/>
+			<Letter id="DCE" index="2"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CCD">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="2" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="3" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="2" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="3" secondParam="d"/>
+			</Equals>
+			<Letter id="SAD" index="1"/>
+			<Letter id="CDT" index="2"/>
+			<Letter id="RS" index="3"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CCD">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="2" secondIndex="3"/>
+				<OrderCons firstIndex="3" secondIndex="4"/>
+				<OrderCons firstIndex="4" secondIndex="5"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="2" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="3" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="4" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="5" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="1" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="2" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="3" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="4" secondParam="d"/>
+				<EqualCons firstIndex="0" firstParam="d" secondIndex="5" secondParam="d"/>
+			</Equals>
+			<Letter id="SAD" index="1"/>
+			<Letter id="DAE" index="2"/>
+			<Letter id="DAE" index="3"/>
+			<Letter id="DAE" index="4"/>
+			<Letter id="DAE" index="5"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CSM">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="1" secondIndex="3"/>
+				<OrderCons firstIndex="1" secondIndex="4"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="2" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="3" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="4" secondParam="s"/>
+			</Equals>
+			<Letter id="NS" index="1"/>
+			<Letter id="CCD" index="2"/>
+			<Letter id="SDS" index="3"/>
+			<Letter id="SR" index="4"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="CSM">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+				<OrderCons firstIndex="1" secondIndex="3"/>
+				<OrderCons firstIndex="1" secondIndex="4"/>
+				<OrderCons firstIndex="1" secondIndex="5"/>
+				<OrderCons firstIndex="1" secondIndex="6"/>
+				<OrderCons firstIndex="1" secondIndex="7"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="1" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="2" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="3" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="4" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="5" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="6" secondParam="s"/>
+				<EqualCons firstIndex="0" firstParam="s" secondIndex="7" secondParam="s"/>
+			</Equals>
+			<Letter id="NS" index="1"/>
+			<Letter id="CCD" index="2"/>
+			<Letter id="CCD" index="3"/>
+			<Letter id="CCD" index="4"/>
+			<Letter id="CCD" index="5"/>
+			<Letter id="SDS" index="6"/>
+			<Letter id="SR" index="7"/>
+		</Recipe>
+		<Recipe prob="0.1" lhs="SRP">
+			<Order>
+				<OrderCons firstIndex="1" secondIndex="2"/>
+			</Order>
+			<Equals>
+				<EqualCons firstIndex="1" firstParam="s" secondIndex="2" secondParam="s"/>
+				<EqualCons firstIndex="2" firstParam="s" secondIndex="3" secondParam="s"/>
+				<EqualCons firstIndex="1" firstParam="s" secondIndex="3" secondParam="s"/>
+			</Equals>
+			<Letter id="CSM" index="1"/>
+			<Letter id="R" index="2"/>
+			<Letter id="PO" index="3"/>
+		</Recipe>
+	</Recipes>
+</PL>
